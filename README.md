@@ -1,37 +1,94 @@
-🔐 Credit Card Fraud Detection – Machine Learning Approach
-A machine learning project focused on detecting fraudulent credit card transactions using supervised classification algorithms and advanced resampling techniques to handle severe class imbalance.
+<!-- Credit Card Fraud Detection - README.md (HTML-enhanced) -->
 
-📊 Dataset
-This project uses the publicly available dataset from Kaggle:
-🔗 Credit Card Fraud Dataset
+<h1 align="center">🔐 Credit Card Fraud Detection</h1>
 
-🧠 Models Implemented
-To build a fraud detection system, I implemented and compared the following supervised learning algorithms:
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Supervised-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.8+-yellow?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Imbalanced%20Dataset-Handled-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</p>
 
-✅ Logistic Regression
-🌳 Decision Tree Classifier
-🌲 Random Forest Classifier
+<p align="center">
+  A machine learning pipeline to detect fraudulent credit card transactions using classification algorithms and smart resampling techniques.
+</p>
 
-Each model was evaluated for its ability to accurately detect fraudulent activities in highly imbalanced financial data.
+<hr/>
 
-⚖️ Tackling Class Imbalance
-Given that fraud cases are extremely rare compared to normal transactions, the dataset is highly imbalanced. I applied the following resampling strategies to improve model performance:
+<h2>📊 Dataset</h2>
 
-🔁 Oversampling the Minority Class
-Duplicated fraud samples to increase representation.
-✂️ Under-sampling the Majority Class
+<p>
+This project uses the credit card transactions dataset from Kaggle:<br>
+<a href="https://www.kaggle.com/code/gpreda/credit-card-fraud-detection-predictive-models/input">
+🔗 Click here to view dataset on Kaggle
+</a>
+</p>
 
-Reduced the number of normal transactions.
-🧪 SMOTE (Synthetic Minority Oversampling Technique)
-Generated synthetic minority samples to balance the data using interpolation between existing instances.
+<h2>🧠 Models Implemented</h2>
 
-🎯 Objective
-To develop a scalable and accurate fraud detection system capable of identifying anomalous patterns in transaction behavior, ultimately enhancing the security of financial systems.
+<ul>
+  <li><strong>Logistic Regression</strong></li>
+  <li><strong>Decision Tree Classifier</strong></li>
+  <li><strong>Random Forest Classifier</strong></li>
+</ul>
 
-🛠️ Tools & Technologies
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-Scikit-learn
-Imbalanced-learn (for SMOTE)
-Jupyter Notebook
+<h2>⚖️ Handling Class Imbalance</h2>
 
-💡 "In fraud detection, precision isn't optional—it’s essential. This project shows how machine learning can drive smarter, faster, and more secure financial systems."
+<p>The dataset is heavily skewed toward non-fraudulent transactions. To address this, I applied:</p>
+
+<ul>
+  <li><strong>Oversampling</strong>: Replicating minority (fraud) samples</li>
+  <li><strong>Under-sampling</strong>: Reducing majority (normal) samples</li>
+  <li><strong>SMOTE</strong>: Generating synthetic minority samples</li>
+</ul>
+
+<h2>📈 Evaluation Metrics Visualization</h2>
+
+<p>Each model was evaluated using the following visual tools:</p>
+
+<ul>
+  <li>✅ Confusion Matrix</li>
+  <li>📉 ROC–AUC Curve</li>
+  <li>📊 Precision-Recall Curve</li>
+  <li>📋 Classification Report (Precision, Recall, F1-score)</li>
+</ul>
+
+<h2>🛠️ Tools & Libraries</h2>
+
+<ul>
+  <li>Python (NumPy, Pandas, Matplotlib, Seaborn)</li>
+  <li>Scikit-learn</li>
+  <li>Imbalanced-learn (SMOTE)</li>
+  <li>Jupyter Notebook</li>
+</ul>
+
+<h2>🎯 Objective</h2>
+
+<p>
+To build a reliable machine learning model capable of identifying anomalies and reducing the risk of financial fraud.
+</p>
+
+<h2>📌 Key Features</h2>
+
+<ul>
+  <li>Handles class imbalance using three techniques</li>
+  <li>Compares multiple classification models</li>
+  <li>Provides clear visualizations of results</li>
+  <li>Structured and reproducible Jupyter workflow</li>
+</ul>
+
+<h2>🧠 Quote</h2>
+
+<blockquote>
+  <i>“In fraud detection, precision isn't optional—it’s essential. This project shows how machine learning can drive smarter, faster, and more secure financial systems.”</i>
+</blockquote>
+
+<hr/>
+
+<h2>🔗 Connect with Me</h2>
+
+<p>
+  <a href="https://www.linkedin.com/in/sukanta-nath">
+    <img src="https://img.shields.io/badge/LinkedIn-SukantaNath-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
