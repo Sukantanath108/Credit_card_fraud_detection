@@ -3,7 +3,7 @@ A machine learning project focused on detecting fraudulent credit card transacti
 
 📊 Dataset
 This project uses the publicly available dataset from Kaggle:
-🔗 Credit Card Fraud Dataset[https://www.kaggle.com/code/gpreda/credit-card-fraud-detection-predictive-models/input]
+🔗 Credit Card Fraud Dataset
 
 🧠 Models Implemented
 To build a fraud detection system, I implemented and compared the following supervised learning algorithms:
